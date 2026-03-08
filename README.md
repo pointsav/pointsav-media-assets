@@ -1,14 +1,11 @@
-# pointsav-media-assets
+# PointSav Media Assets
 ### *Sovereign Structural Anchor | OS Visual Assets*
 
-**Status: Provisioning** | **Taxonomy: Tier-3-Platform**
+**Status: Active Storage** | **Taxonomy: Tier-3-Platform**
 
-## ⚙️ Execution Mechanics
-This repository acts as the immutable storage locker for PointSav Digital Systems™ brand assets. It inherits all structural interface code directly from `pointsav-design-system`. It contains zero code logic.
+## 📜 Operational Mandate
+Immutable storage locker for PointSav Digital Systems brand assets.
 
-### 📚 Directory Index
-| Directory | Contents | Mandate |
-| :--- | :--- | :--- |
-| **`/logos`** | SVG and high-resolution PNG | Official operating system and corporate marks. |
-| **`/documents`** | PDF disclosures | PointSav-specific media releases and white papers. |
-| **`/diagrams`** | Network topology | Visual representations of the Capability-Based Manager and Mesh. |
+> **Directory Nomenclature Ledger**
+> All files committed to this directory MUST adhere to the following strict prefix taxonomy:
+> * `ASSET-*`: Inert binary/vector files (e.g., ASSET-DIAGRAM-Mesh.svg).
