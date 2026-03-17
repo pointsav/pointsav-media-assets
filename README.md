@@ -1,11 +1,22 @@
-# PointSav Media Assets
-### *Sovereign Structural Anchor | OS Visual Assets*
+# PointSav OS Identity & Theme
+**Sovereign Structural Anchor | Visual Assets**
 
-**Status: Active Storage** | **Taxonomy: Tier-3-Platform**
+## 🎨 The Terminal Aesthetic (Vendor Theme)
+This repository contains the proprietary visual identity and system routing parameters for **PointSav Digital Systems™**. 
 
-## 📜 Operational Mandate
-Immutable storage locker for PointSav Digital Systems brand assets and primitive web vectors.
+While our open-source `pointsav-design-system` defines the universal physics of the OS, this repository defines how the software *looks* when we deploy it as a first-party product. It maps our raw color values into the agnostic UI components, enforcing the high-contrast, dark-mode technical aesthetic of the PointSav brand.
 
-> **Directory Nomenclature Ledger**
-> All files committed to this directory MUST adhere to the following strict prefix taxonomy:
-> * `ASSET-*`: SVG vectors and UI primitives (e.g., ASSET-FAVICON-SQUARE.svg).
+## 📂 Master Index: Theme Injection
+
+| File | Role | Description |
+| :--- | :--- | :--- |
+| `token-global-color.yaml` | Global Values | The raw hex codes defining the PointSav palette. |
+| `token-global-telemetry.yaml` | Config | Defines the active PointSav transmission URL and port (`8081`). |
+| `theme-pointsav-terminal.yaml` | Alias Mapper | Injects PointSav Global colors into PointSav UI aliases. |
+
+## 📂 Master Index: Print & Vectors
+* **`ASSET-FAVICON-SQUARE.svg`**: OS application primitives.
+* **`ASSET-LOGO-WORDMARK.svg`**: Institutional Brutalism text marks.
+
+---
+*© 2026 PointSav Digital Systems™.*
