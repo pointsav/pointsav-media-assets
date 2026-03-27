@@ -1,18 +1,26 @@
 <div align="center">
 
+<img src="https://raw.githubusercontent.com/pointsav/pointsav-media-assets/main/ASSET-SIGNET-MASTER.svg" width="80" alt="PointSav Signet">
+
 # PointSav OS Identity & Theme
 ### *Sovereign Structural Anchor | Visual Assets*
 
-**[ ⚙️ System Monorepo ](https://github.com/pointsav/pointsav-monorepo)** | **[ 📐 PointSav Design System ](https://github.com/pointsav/pointsav-design-system)** | **[ 🏢 Main Profile ](https://github.com/pointsav)**
+[![Aesthetic](https://img.shields.io/badge/Aesthetic-Terminal_Dark-111827?style=flat-square)](#)
+[![Tokens](https://img.shields.io/badge/Tokens-Verified-54924E?style=flat-square)](#)
+[![Status](https://img.shields.io/badge/Status-Active-54924E?style=flat-square)](#)
+
+[ **System Monorepo** ](https://github.com/pointsav/pointsav-monorepo) | [ **Design System** ](https://github.com/pointsav/pointsav-design-system) | [ **Main Profile** ](https://github.com/pointsav)
 
 </div>
 
 ---
 
-## 🎨 The Terminal Aesthetic (Vendor Theme)
-This repository contains the proprietary visual identity and system routing parameters for **PointSav Digital Systems™**. 
-
-While our open-source `pointsav-design-system` defines the universal physics of the OS, this repository defines how the software *looks* when we deploy it as a first-party product. It maps our raw color values into the agnostic UI components, enforcing the high-contrast, dark-mode technical aesthetic of the PointSav brand.
+<details>
+<summary><b>🛡️ VIEW THE TERMINAL AESTHETIC (VENDOR THEME)</b></summary>
+<br>
+This repository contains the proprietary visual identity and system routing parameters for PointSav Digital Systems™. While our open-source <code>pointsav-design-system</code> defines the universal physics of the OS, this repository defines how the software <i>looks</i> when deployed as a first-party product. It enforces the high-contrast, dark-mode technical aesthetic of the PointSav brand.
+<br><br>
+</details>
 
 ## 📂 Master Index: Theme Injection
 | File | Role | Description |
@@ -25,7 +33,6 @@ While our open-source `pointsav-design-system` defines the universal physics of 
 * **`ASSET-FAVICON-SQUARE.svg`**: OS application primitives.
 * **`ASSET-LOGO-WORDMARK.svg`**: Institutional Brutalism text marks.
 * **`ASSET-SIGNET-MASTER.svg`**: Normalized PointSav Sovereign Signet (Vector).
-* **`ASSET-SIGNET-MASTER.png`**: Normalized PointSav Sovereign Signet (Raster).
 
 ---
-*© 2026 PointSav Digital Systems™.*
+*© 2026 PointSav Digital Systems™*
