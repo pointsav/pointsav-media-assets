@@ -1,38 +1,26 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/pointsav/pointsav-media-assets/main/ASSET-SIGNET-MASTER.svg" width="80" alt="PointSav Signet">
+# PointSav Digital Systems
+### *Media Assets: Visual Primitives*
 
-# PointSav OS Identity & Theme
-### *Sovereign Structural Anchor | Visual Assets*
+[![Entity](https://img.shields.io/badge/Entity-System_Vendor-111827?style=flat-square)](#)
+[![Format](https://img.shields.io/badge/Format-Structural_Assets-111827?style=flat-square)](#)
 
-[![Aesthetic](https://img.shields.io/badge/Aesthetic-Terminal_Dark-111827?style=flat-square)](#)
-[![Tokens](https://img.shields.io/badge/Tokens-Verified-54924E?style=flat-square)](#)
-[![Status](https://img.shields.io/badge/Status-Active-54924E?style=flat-square)](#)
-
-[ **System Monorepo** ](https://github.com/pointsav/pointsav-monorepo) | [ **Design System** ](https://github.com/pointsav/pointsav-design-system) | [ **Main Profile** ](https://github.com/pointsav)
+[ **Organization Profile** ](https://github.com/pointsav) | [ **PointSav Monorepo** ](https://github.com/pointsav/pointsav-monorepo) | [ **Design System** ](https://github.com/pointsav/pointsav-design-system) | [ **Documentation Wiki** ](https://github.com/pointsav/content-wiki-documentation) | [ **Media Assets** ](https://github.com/pointsav/pointsav-media-assets) | [ **Fleet Manifest** ](https://github.com/woodfine/woodfine-fleet-deployment)
 
 </div>
 
 ---
 
+## 1. OPERATIONAL MANDATE
+
+**[ EN ]** This repository houses the core visual primitives for PointSav Digital Systems. It serves as the isolated operational hub for internal graphic designers, containing raw SVGs, structural signets, and brand physics files dictated by the PointSav Design System.
 <details>
-<summary><b>🛡️ VIEW THE TERMINAL AESTHETIC (VENDOR THEME)</b></summary>
-<br>
-This repository contains the proprietary visual identity and system routing parameters for PointSav Digital Systems™. While our open-source <code>pointsav-design-system</code> defines the universal physics of the OS, this repository defines how the software <i>looks</i> when deployed as a first-party product. It enforces the high-contrast, dark-mode technical aesthetic of the PointSav brand.
-<br><br>
+<summary><b>[ ES ] Traducción al Español</b></summary>
+Este repositorio alberga las primitivas visuales principales de PointSav Digital Systems. Sirve como el centro operativo aislado para los diseñadores gráficos internos, conteniendo SVG en bruto, sellos estructurales y archivos de física de marca dictados por el Sistema de Diseño PointSav.
 </details>
 
-## 📂 Master Index: Theme Injection
-| File | Role | Description |
-| :--- | :--- | :--- |
-| `token-global-color.yaml` | Global Values | The raw hex codes defining the PointSav palette. |
-| `token-global-telemetry.yaml` | Config | Defines the active PointSav transmission URL and port (`8081`). |
-| `theme-pointsav-terminal.yaml` | Alias Mapper | Injects PointSav Global colors into PointSav UI aliases. |
-
-## 📂 Master Index: Print & Vectors
-* **`ASSET-FAVICON-SQUARE.svg`**: OS application primitives.
-* **`ASSET-LOGO-WORDMARK.svg`**: Institutional Brutalism text marks.
-* **`ASSET-SIGNET-MASTER.svg`**: Normalized PointSav Sovereign Signet (Vector).
-
----
-*© 2026 PointSav Digital Systems™*
+<br>
+<div align="center">
+<sub><em>Woodfine Capital Projects, Woodfine Management Corp., PointSav Digital Systems, Totebox Orchestration, and Totebox Archive are trademarks owned by Woodfine Capital Projects Inc. This notice serves as a formal declaration of intellectual property rights, asserting continuous use in commerce regardless of the omission of the ™ or ® symbols in the accompanying text. All operational and architectural system designations (including but not limited to PointSav Console OS, PointSav Infrastructure OS, PointSav MediaKit OS, PointSav Network OS, PointSav PrivateGit OS, PointSav Workplace OS, Totebox Integration OS, and Totebox OS) are proprietary structural wordmarks utilized exclusively within the PointSav Digital Systems architecture.</em></sub>
+</div>
