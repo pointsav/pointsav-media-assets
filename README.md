@@ -16,12 +16,11 @@
 ## 1. VISUAL PRIMITIVES
 
 **[ EN ]** This repository contains the operational media assets, vector graphics, and brand physics files dictated by the PointSav Design System.
-<details>
-<summary><b>[ ES ] Traducción al Español</b></summary>
-Este repositorio contiene los activos de medios operativos, gráficos vectoriales y archivos de física de marca dictados por el Sistema de Diseño PointSav.
-</details>
 
-<br>
-<div align="right">
+> **[ ES ]** *Este repositorio contiene los activos de medios operativos, gráficos vectoriales y archivos de física de marca dictados por el Sistema de Diseño PointSav.*
+
+---
+
+<div align="left">
 <sub><em>Woodfine Capital Projects, Woodfine Management Corp., PointSav Digital Systems, Totebox Orchestration, and Totebox Archive are trademarks owned by Woodfine Capital Projects Inc. This notice serves as a formal declaration of intellectual property rights, asserting continuous use in commerce regardless of the omission of the ™ or ® symbols in the accompanying text. All operational and architectural system designations (including but not limited to PointSav Console OS, PointSav Infrastructure OS, PointSav MediaKit OS, PointSav Network OS, PointSav PrivateGit OS, PointSav Workplace OS, Totebox Integration OS, and Totebox OS) are proprietary structural wordmarks utilized exclusively within the PointSav Digital Systems architecture.</em></sub>
 </div>
