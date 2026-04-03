@@ -1,33 +1,11 @@
-<div align="center">
+# PointSav Media Assets
+### *Sovereign Structural Anchor | OS Visual Assets*
 
-# 🖼️ PUBLIC MEDIA ASSETS
-### STRUCTURAL SIGNETS & VISUAL PRIMITIVES
-*PointSav Digital Systems Brand Directory.*
+**Status: Active Storage** | **Taxonomy: Tier-3-Platform**
 
-<br/>
+## 📜 Operational Mandate
+Immutable storage locker for PointSav Digital Systems brand assets and primitive web vectors.
 
-**[ ➔ System Engineering Monorepo ](https://github.com/pointsav/pointsav-monorepo)**<br/>
-**[ ➔ PointSav Organization ](https://github.com/pointsav)**
-
-</div>
-
-<br/>
-
-> [!WARNING]
-> **MEDIA CUSTODY DECLARATION**
-> This repository is strictly for public rendering and contains no cyberphysical logic state files.
-
----
-
-## I. ASSET DIRECTORY
-
-This repository serves as the designated storage location for the public media assets and structural signets of PointSav Digital Systems.
-
----
-
-## II. RENDER LEDGER
-
-| Asset Vector | Rendering Mandate | Status |
-| :--- | :--- | :--- |
-| **Signet Master** | Primary organizational identity marker. | 🟢 Active |
-| **Architecture Diagrams** | Visual topologies of the Totebox environment. | 🟢 Active |
+> **Directory Nomenclature Ledger**
+> All files committed to this directory MUST adhere to the following strict prefix taxonomy:
+> * `ASSET-*`: SVG vectors and UI primitives (e.g., ASSET-FAVICON-SQUARE.svg).
