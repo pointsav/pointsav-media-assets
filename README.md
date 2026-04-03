@@ -1,26 +1,33 @@
 <div align="center">
 
-# PointSav Digital Systems
-### *Media Assets*
+# 🖼️ PUBLIC MEDIA ASSETS
+### STRUCTURAL SIGNETS & VISUAL PRIMITIVES
+*PointSav Digital Systems Brand Directory.*
 
-[![Entity](https://img.shields.io/badge/Entity-System_Vendor-111827?style=flat-square)](#)
-[![Format](https://img.shields.io/badge/Format-Structural_Assets-111827?style=flat-square)](#)
+<br/>
 
-[ **Organization Profile** ](https://github.com/pointsav) | [ **PointSav Monorepo** ](https://github.com/pointsav/pointsav-monorepo) | [ **Design System** ](https://github.com/pointsav/pointsav-design-system) | [ **Documentation Wiki** ](https://github.com/pointsav/content-wiki-documentation) | [ **Media Assets** ](https://github.com/pointsav/pointsav-media-assets)
-<br>↳ External Deployment: [ **Woodfine Fleet Manifest ↗** ](https://github.com/woodfine/woodfine-fleet-deployment)
+**[ ➔ System Engineering Monorepo ](https://github.com/pointsav/pointsav-monorepo)**<br/>
+**[ ➔ PointSav Organization ](https://github.com/pointsav)**
 
 </div>
 
----
+<br/>
 
-## 1. PUBLIC MEDIA ASSETS
-
-**[ EN ]** This repository serves strictly as the designated storage location for the public media assets and structural signets of PointSav Digital Systems.
-
-> **[ ES ]** *Este repositorio sirve estrictamente como la ubicación de almacenamiento designada para los activos de medios públicos y los sellos estructurales de PointSav Digital Systems.*
+> [!WARNING]
+> **MEDIA CUSTODY DECLARATION**
+> This repository is strictly for public rendering and contains no cyberphysical logic state files.
 
 ---
 
-<div align="left">
-<sub><em>Woodfine Capital Projects, Woodfine Management Corp., PointSav Digital Systems, Totebox Orchestration, and Totebox Archive are trademarks owned by Woodfine Capital Projects Inc. This notice serves as a formal declaration of intellectual property rights, asserting continuous use in commerce regardless of the omission of the ™ or ® symbols in the accompanying text. All operational and architectural system designations (including but not limited to PointSav Console OS, PointSav Infrastructure OS, PointSav MediaKit OS, PointSav Network OS, PointSav PrivateGit OS, PointSav Workplace OS, Totebox Integration OS, and Totebox OS) are proprietary structural wordmarks utilized exclusively within the PointSav Digital Systems architecture.</em></sub>
-</div>
+## I. ASSET DIRECTORY
+
+This repository serves as the designated storage location for the public media assets and structural signets of PointSav Digital Systems.
+
+---
+
+## II. RENDER LEDGER
+
+| Asset Vector | Rendering Mandate | Status |
+| :--- | :--- | :--- |
+| **Signet Master** | Primary organizational identity marker. | 🟢 Active |
+| **Architecture Diagrams** | Visual topologies of the Totebox environment. | 🟢 Active |
