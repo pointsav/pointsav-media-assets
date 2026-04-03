@@ -13,11 +13,11 @@
 
 ---
 
-## 1. VISUAL PRIMITIVES
+## 1. PUBLIC MEDIA ASSETS
 
-**[ EN ]** This repository contains the operational media assets, vector graphics, and brand physics files dictated by the PointSav Design System.
+**[ EN ]** This repository serves strictly as the designated storage location for the public media assets and structural signets of PointSav Digital Systems.
 
-> **[ ES ]** *Este repositorio contiene los activos de medios operativos, gráficos vectoriales y archivos de física de marca dictados por el Sistema de Diseño PointSav.*
+> **[ ES ]** *Este repositorio sirve estrictamente como la ubicación de almacenamiento designada para los activos de medios públicos y los sellos estructurales de PointSav Digital Systems.*
 
 ---
 
