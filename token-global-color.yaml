@@ -1,10 +1,28 @@
 # GLOBAL TOKENS: PointSav Proprietary Palette
 colors:
-  pointsav-canvas: "#09090B"
-  pointsav-card: "#111827"
-  pointsav-white: "#FFFFFF"
+  # Brand palette (see documents/documentation-pointsav-color-values.html)
+  pointsav-blue:         "#234ed8"   # Primary interactive; brand anchor (H224 — color.primary-60)
+  pointsav-amber:        "#C4880E"   # Complement highlight (H39 — true complement of Blue)
+  pointsav-teal:         "#0D8FA0"   # Data/infrastructure domain accent (H186 — analogous, cooler)
+  pointsav-indigo:       "#5040C8"   # Intelligence/AI domain accent (H247 — analogous, warmer)
+  pointsav-green:        "#26823F"   # Positive/success states (from design-system support-positive)
+  pointsav-red:          "#C02525"   # Critical/alert states (from design-system support-critical)
+
+  # Brand palette tints (10 % wash)
+  pointsav-blue-tint:    "#EEF3FF"
+  pointsav-amber-tint:   "#FDF4E0"
+  pointsav-teal-tint:    "#DFF5F8"
+  pointsav-indigo-tint:  "#EDEAFA"
+  pointsav-green-tint:   "#E8F6ED"
+  pointsav-red-tint:     "#FCEAEA"
+
+  # Surface & neutral
+  pointsav-canvas:           "#09090B"
+  pointsav-card:             "#111827"
+  pointsav-surface-raised:   "#1C2438"
+  pointsav-white:            "#FFFFFF"
   pointsav-white-translucent: "rgba(255, 255, 255, 0.15)"
-  pointsav-grey-mid: "#A3A3A3"
-  pointsav-grey-dark: "#292929"
-  pointsav-steel: "#869FB9"
-  pointsav-steel-hover: "#6181A4"
+  pointsav-grey-mid:         "#A3A3A3"
+  pointsav-grey-dark:        "#292929"
+  pointsav-steel:            "#869FB9"
+  pointsav-steel-hover:      "#6181A4"
