@@ -6,10 +6,11 @@ sections:
   - heading: "1. THE MASTER MARKS"
     items:
       - "Woodfine Capital Projects"
-      - "Woodfine Management Corp"
+      - "MCorp"
       - "PointSav Digital Systems"
       - "Totebox Orchestration"
       - "Totebox Archive"
+      - "Capability Geometry"
   - heading: "2. THE SYSTEMIC WORDMARKS"
     items:
       - "PointSav Console OS"
@@ -23,4 +24,4 @@ sections:
     execution_template: >
       **Important notice regarding intellectual property and trademarks.**
 
-      Woodfine Capital Projects, Woodfine Management Corp, PointSav Digital Systems, Totebox Orchestration, and Totebox Archive are trademarks owned by Woodfine Capital Projects Inc. This notice serves as a formal declaration of intellectual property rights, asserting continuous use in commerce regardless of the omission of the ™ symbol in the accompanying text. All operational and architectural system designations (including but not limited to PointSav Console OS, PointSav Infrastructure OS, PointSav MediaKit OS, PointSav Network OS, PointSav PrivateGit OS, PointSav Workplace OS, and Totebox OS) are proprietary structural wordmarks utilized exclusively within the PointSav Digital Systems architecture.
+      Woodfine Capital Projects, MCorp, PointSav Digital Systems, Totebox Orchestration, Totebox Archive, and Capability Geometry are trademarks owned by Woodfine Capital Projects Inc. This notice serves as a formal declaration of intellectual property rights, asserting continuous use in commerce regardless of the omission of the ™ symbol in the accompanying text. All operational and architectural system designations (including but not limited to PointSav Console OS, PointSav Infrastructure OS, PointSav MediaKit OS, PointSav Network OS, PointSav PrivateGit OS, PointSav Workplace OS, and Totebox OS) are proprietary structural wordmarks utilized exclusively within the PointSav Digital Systems architecture.
