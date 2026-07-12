@@ -3,7 +3,10 @@
        replaces the grey isometric archive-box illustration with a solid-silhouette
        front-view archive box, matching Woodfine's 4-icon family style: solid #231F20
        fill, no isometric perspective, one consistent #234ed8 blue accent (filing tab),
-       square viewBox with consistent crop weight across all 3 PointSav icons. -->
+       square viewBox with consistent crop weight across all 3 PointSav icons.
+       Baked-in caption text removed 2026-07-12 (follow-up request): the consuming
+       icon_strip() component renders a real, visible h3 title alongside a decorative
+       (alt="") image, so a caption baked into the SVG duplicated that visible text. -->
   <rect x="14" y="22" width="92" height="58" rx="3" fill="#231F20"/>
   <rect x="10" y="8" width="100" height="16" rx="3" fill="#231F20"/>
   <rect x="50" y="13" width="20" height="6" rx="2" fill="#FFFFFF"/>
@@ -11,5 +14,4 @@
   <rect x="30" y="50" width="60" height="7" fill="#FFFFFF"/>
   <rect x="30" y="64" width="38" height="7" fill="#FFFFFF"/>
   <rect x="84" y="30" width="16" height="20" rx="2" fill="#234ed8"/>
-  <text x="60" y="94" text-anchor="middle" font-family="'Trade Gothic LT Std Bold Condensed No. 20', 'Trade Gothic LT Std', 'TradeGothicLTStd-BdCn20', 'Trade Gothic Bold Condensed', 'Arial Narrow', 'Helvetica Condensed', sans-serif-condensed" font-size="11" font-weight="700" fill="#231F20" letter-spacing="0">RECORD KEEPING</text>
 </svg>

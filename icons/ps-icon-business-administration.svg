@@ -4,12 +4,14 @@
        support, not business-admin software) with a solid-silhouette ledger/checklist,
        matching Woodfine's 4-icon family style: solid #231F20 fill, no outline stroke,
        one consistent #234ed8 blue accent, square viewBox with consistent crop weight
-       across all 3 PointSav icons (removes the need for any CSS scale compensation). -->
+       across all 3 PointSav icons (removes the need for any CSS scale compensation).
+       Baked-in caption text removed 2026-07-12 (follow-up request): the consuming
+       icon_strip() component renders a real, visible h3 title alongside a decorative
+       (alt="") image, so a caption baked into the SVG duplicated that visible text. -->
   <rect x="42" y="4" width="36" height="10" rx="5" fill="#231F20"/>
   <rect x="24" y="10" width="72" height="70" rx="4" fill="#231F20"/>
   <rect x="34" y="24" width="52" height="6" fill="#FFFFFF"/>
   <rect x="34" y="37" width="52" height="6" fill="#FFFFFF"/>
   <rect x="34" y="50" width="34" height="6" fill="#FFFFFF"/>
   <path d="M40 60 L50 70 L76 46" fill="none" stroke="#234ed8" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
-  <text x="60" y="94" text-anchor="middle" font-family="'Trade Gothic LT Std Bold Condensed No. 20', 'Trade Gothic LT Std', 'TradeGothicLTStd-BdCn20', 'Trade Gothic Bold Condensed', 'Arial Narrow', 'Helvetica Condensed', sans-serif-condensed" font-size="11" font-weight="700" fill="#231F20" letter-spacing="0"><tspan x="60" dy="0">BUSINESS</tspan><tspan x="60" dy="12">ADMINISTRATION</tspan></text>
 </svg>
