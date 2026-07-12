@@ -6,7 +6,10 @@
        cutouts (matching Woodfine's dark-fill/light-cutout convention), removed the
        stroke outline, kept the antenna/signal-wave motif and the two side connectivity
        nodes (repositioned for the new square viewBox), consistent #234ed8 blue accent,
-       consistent crop weight with the other 2 redrawn PointSav icons. -->
+       consistent crop weight with the other 2 redrawn PointSav icons.
+       Baked-in caption text removed 2026-07-12 (follow-up request): the consuming
+       icon_strip() component renders a real, visible h3 title alongside a decorative
+       (alt="") image, so a caption baked into the SVG duplicated that visible text. -->
   <rect x="34" y="26" width="52" height="54" fill="#231F20"/>
   <rect x="52" y="66" width="16" height="14" fill="#FFFFFF"/>
   <g fill="#FFFFFF">
@@ -31,5 +34,4 @@
     <line x1="18" y1="56" x2="34" y2="56"/>
     <line x1="86" y1="56" x2="102" y2="56"/>
   </g>
-  <text x="60" y="94" text-anchor="middle" font-family="'Trade Gothic LT Std Bold Condensed No. 20', 'Trade Gothic LT Std', 'TradeGothicLTStd-BdCn20', 'Trade Gothic Bold Condensed', 'Arial Narrow', 'Helvetica Condensed', sans-serif-condensed" font-size="11" font-weight="700" fill="#231F20" letter-spacing="0"><tspan x="60" dy="0">BUILDING</tspan><tspan x="60" dy="12">CONNECTIVITY</tspan></text>
 </svg>
