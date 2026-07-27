@@ -6,7 +6,9 @@ colors:
   pointsav-teal:         "#0D8FA0"   # Data/infrastructure domain accent (H186 — analogous, cooler)
   pointsav-indigo:       "#5040C8"   # Intelligence/AI domain accent (H247 — analogous, warmer)
   pointsav-green:        "#26823F"   # Positive/success states (from design-system support-positive)
-  pointsav-red:          "#C02525"   # Critical/alert states (from design-system support-critical)
+  pointsav-red:          "#a52323"   # Critical/alert states -- corrected 2026-07 to match design-system's
+                                      # authoritative primitive.color.critical-60 (--ps-primitive-color-critical-60);
+                                      # this file previously claimed #C02525 as that value, which had drifted
 
   # Brand palette tints (10 % wash)
   pointsav-blue-tint:    "#EEF3FF"
