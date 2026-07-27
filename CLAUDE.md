@@ -59,7 +59,9 @@ this reason (see below).
 - `token-global-telemetry.yaml` — product telemetry tokens
 - `theme-pointsav-terminal.yaml` — semantic theme mappings
 - `logos/` — SVG/PNG brand marks
-- `tokens/linguistic/` — corporate language protocols
+- `governance/` — corporate language protocols, trademark/legal disclaimer text (renamed
+  2026-07-27 from `tokens/linguistic/` — this is prose governance content, not a DTCG
+  token; the old path name implied otherwise)
 
 **Removed 2026-07-10:** `css/theme-pointsav.css` — a hand-maintained CSS
 duplicate of `token-global-color.yaml`'s values that had drifted from its
