@@ -37,31 +37,40 @@ git -c user.signingkey="$HOME/Foundry/identity/pointsav-administrator/id_pointsa
 
 ## Downstream consumer
 
-`github.com/pointsav/pointsav-design-system` consumes brand primitives
-from this repo. When token values change here, the design system's
-DTCG tokens should be updated accordingly.
+None, for design tokens. **Corrected 2026-07-29** (Carbon-style consumption
+model review — see `pointsav-design-system/.agent/rules/design-tokens.md`):
+PointSav is the *vendor* building `pointsav-design-system`, not an adopting
+tenant of it, so PointSav's own brand values live directly in that repo
+(`dtcg-vault/themes/pointsav-brand.json`) as its default/reference theme —
+the same way IBM Carbon ships its own neutral themes inside its own repo.
+There is no separate "PointSav consumer layer" the way there is for an
+adopting customer like Woodfine.
 
-**This repo is upstream-only** (2026-07-10 restructure, per a cross-repo
-token audit + Fable review): it holds raw brand primitives — logo/favicon
-files, legal/linguistic protocol content, and one raw brand-values YAML —
-that feed `pointsav-design-system`'s build. It is not a distribution
-channel a creative-team member should ever need to visit directly;
-design.pointsav.com's own token/asset exports are meant to serve that
-audience. All derived formats (compiled CSS, per-theme bundles, JSON
-exports) are generated downstream in `pointsav-design-system`, not
-hand-maintained here — `css/theme-pointsav.css` was removed for exactly
-this reason (see below).
+**This repo now holds binary assets and non-token governance content only**
+— no DTCG tokens, no brand-color YAML, no theme CSS. This is a step further
+than the 2026-07-10/2026-07-17 "upstream-only" restructure: those kept one
+raw brand-values YAML file here as PointSav's "source of truth" feeding
+`pointsav-design-system`'s build; that YAML turned out to be a stale,
+incomplete duplicate of what `dtcg-vault` already carries (verified
+2026-07-29 — every value already present, some more complete). Retired
+outright rather than reconciled, per the same reasoning `css/theme-pointsav.css`
+was already retired for on 2026-07-10: two consumption surfaces for the same
+values is how that drift happened the first time.
 
 ## Repo scope
 
-- `token-global-color.yaml` — canonical PointSav palette (dark terminal brand);
-  the single raw source of truth in this repo
-- `token-global-telemetry.yaml` — product telemetry tokens
-- `theme-pointsav-terminal.yaml` — semantic theme mappings
 - `logos/` — SVG/PNG brand marks
 - `governance/` — corporate language protocols, trademark/legal disclaimer text (renamed
   2026-07-27 from `tokens/linguistic/` — this is prose governance content, not a DTCG
   token; the old path name implied otherwise)
+
+**Removed 2026-07-29:** `token-global-color.yaml`, `theme-pointsav-terminal.yaml`
+— PointSav's own palette + dark-terminal theme mapper, fully superseded by
+`pointsav-design-system/dtcg-vault/themes/pointsav-brand.json`'s `.dark.*`
+semantic tokens (confirmed live and current — no other reference to the
+"Brutalist Dark"/terminal aesthetic exists anywhere in the live app).
+`token-global-telemetry.yaml` (a telemetry endpoint URL, not a design token)
+remains, out of scope for this reclassification.
 
 **Removed 2026-07-10:** `css/theme-pointsav.css` — a hand-maintained CSS
 duplicate of `token-global-color.yaml`'s values that had drifted from its
