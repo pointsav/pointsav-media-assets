@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg viewBox="0 0 1200 630" width="1200" height="630" version="1.1"
+     xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#111827" />
+  <rect x="0" y="0" width="14" height="630" fill="#1a4480" />
+
+  <rect x="96" y="171" width="168" height="168" rx="12" fill="#1a4480" />
+  <svg x="96" y="171" width="168" height="168" viewBox="0 0 512 512">
+    <path d="M 256,96 L 416,176 L 416,336 L 256,416 L 96,336 L 96,176 Z M 256,176 L 256,416"
+          fill="none" stroke="#ffffff" stroke-width="20" stroke-linejoin="round" stroke-linecap="round" />
+  </svg>
+
+  <text x="96" y="410" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+        font-size="64" font-weight="800" fill="#ffffff" letter-spacing="-0.02em">PointSav<tspan
+        dx="18" font-weight="500" fill="#1a4480">Software</tspan></text>
+
+  <text x="98" y="458" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+        font-size="28" font-weight="400" fill="#9CA3AF">Release distribution and the software marketplace.</text>
+
+  <text x="98" y="560" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+        font-size="22" font-weight="500" fill="#1a4480" letter-spacing="0.02em">software.pointsav.com</text>
+</svg>
